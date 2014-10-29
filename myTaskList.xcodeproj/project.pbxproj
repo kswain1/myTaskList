@@ -14,6 +14,7 @@
 		883DA52719F1ED25001621D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883DA52619F1ED25001621D8 /* Images.xcassets */; };
 		883DA52A19F1ED25001621D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 883DA52819F1ED25001621D8 /* LaunchScreen.xib */; };
 		883DA53619F1ED25001621D8 /* myTaskListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883DA53519F1ED25001621D8 /* myTaskListTests.swift */; };
+		883DA54219F1EF13001621D8 /* TaskManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883DA54119F1EF13001621D8 /* TaskManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		883DA52F19F1ED25001621D8 /* myTaskListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myTaskListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		883DA53419F1ED25001621D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		883DA53519F1ED25001621D8 /* myTaskListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTaskListTests.swift; sourceTree = "<group>"; };
+		883DA54119F1EF13001621D8 /* TaskManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				883DA52619F1ED25001621D8 /* Images.xcassets */,
 				883DA52819F1ED25001621D8 /* LaunchScreen.xib */,
 				883DA51B19F1ED25001621D8 /* Supporting Files */,
+				883DA54119F1EF13001621D8 /* TaskManger.swift */,
 			);
 			path = myTaskList;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883DA54219F1EF13001621D8 /* TaskManger.swift in Sources */,
 				883DA52219F1ED25001621D8 /* SecondViewController.swift in Sources */,
 				883DA51E19F1ED25001621D8 /* AppDelegate.swift in Sources */,
 				883DA52019F1ED25001621D8 /* FirstViewController.swift in Sources */,
